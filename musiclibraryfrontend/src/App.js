@@ -2,7 +2,9 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import NavBar from './Components/NavBar';
-
+import SearchBar from './Components/SearchBar';
+import Song from './Components/Song';
+import 
 
 
 
@@ -29,6 +31,8 @@ function App() {
     console.log(songs)
   }
 
+  function searchFilter
+
 
 
 
@@ -38,11 +42,7 @@ function App() {
 
 
   
-  return (
-    <div className="App">
-      Hello world
-    </div>
-  );
+ 
 }
 
 export default App;
