@@ -1,8 +1,8 @@
 const NavBar = (props) => {
     return (
-        <header class="nav-header">
-            <div class="nav-div">
-                <p>Music</p><p class="library">Library</p>
+        <header className="nav-header">
+            <div className="nav-div">
+                <p>Music Library</p>
             </div>
         </header>
     );

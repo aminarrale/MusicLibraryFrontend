@@ -16,7 +16,7 @@ const SearchBar = (props) =>{
                 <input type='str' value={query} className="input-style" placeholder='Search...' onChange={(event) => setQuery(event.target.value)}/>
             </div>
             <div>
-                <button type='submit' className='filter-button'><i className="fa-solid fa-filter fa-lg"></i></button>
+                <button type='submit' className='filter-button'>Filter<i className="fa-solid fa-filter fa-lg"></i></button>
             </div>
         </form>
     );

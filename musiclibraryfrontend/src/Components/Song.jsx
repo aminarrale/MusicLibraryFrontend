@@ -39,6 +39,9 @@ const Song = (props) => {
             <div>
                 <input type='date' value={date} className='form-field' onChange={(event) => setDate(event.target.value)}/>
             </div>
+            <div>
+                <button type='submit' className='submit-button'>Submit<i className="fa-solid fa-filter fa-lg"></i></button>
+            </div>
         </form>
     )
 }
