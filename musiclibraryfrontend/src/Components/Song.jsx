@@ -1,3 +1,4 @@
+import "./Song.css"
 import React, {useState} from 'react';
 
 
@@ -39,8 +40,9 @@ const Song = (props) => {
             <div>
                 <input type='date' value={date} className='form-field' onChange={(event) => setDate(event.target.value)}/>
             </div>
+            <br></br>
             <div>
-                <button type='submit' className='submit-button'>Submit<i className="fa-solid fa-filter fa-lg"></i></button>
+                <button type='submit' className='submit-button'>Create Song<i className="fa-solid fa-filter fa-lg"></i></button>
             </div>
         </form>
     )
